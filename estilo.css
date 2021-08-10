@@ -6,6 +6,8 @@ body{
 
 .p-name{
     text-align: center;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
     color: #ffffff;
 }
 
@@ -28,9 +30,9 @@ body{
     width: auto;
     height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .lista-links{
@@ -53,5 +55,16 @@ li {
 
 a{
     text-decoration: none;
+    color: #ffffff;
+}
+
+.div-sobre{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
     color: #ffffff;
 }
